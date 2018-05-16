@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/fragment_mine">
+
+    <include
+        layout="@layout/mine_header"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_white"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/info"
+                style="@style/mine_item"
+                android:text="个人信息"/>
+            <View
+                style="@style/view_style"/>
+            <TextView
+                android:id="@+id/friend"
+                android:text="我的好友"
+                style="@style/mine_item"/>
+            <View
+                style="@style/view_style"/>
+            <TextView
+                android:id="@+id/draft"
+                android:text="草稿箱"
+                style="@style/mine_item"/>
+            <View
+                style="@style/view_style"/>
+            <TextView
+                android:id="@+id/table_part"
+                android:text="我参与的圆桌"
+                style="@style/mine_item"/>
+            <View
+                style="@style/view_style"/>
+            <TextView
+                android:id="@+id/table_create"
+                android:text="我创建的圆桌"
+                style="@style/mine_item"/>
+            <View
+                style="@style/view_style"/>
+            <TextView
+                android:id="@+id/about"
+                android:text="关于/帮助"
+                style="@style/mine_item"/>
+            <View
+                style="@style/view_style"/>
+            <TextView
+                android:id="@+id/signout"
+                android:text="退出"
+                style="@style/mine_item"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

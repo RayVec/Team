@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">同道</string>
+
+    <string name="title_table">圆桌</string>
+    <string name="title_news">消息</string>
+    <string name="title_mine">我的</string>
+
+    <string name="text_name">用户名</string>
+    <string name="text_phone">手机号</string>
+    <string name="text_password">密码</string>
+    <string name="text_confirm_password">确认密码</string>
+    <string name="text_verify_code">手机验证码</string>
+
+    <string name="hint_prompt_name">请输入用户名</string>
+    <string name="hint_prompt_password">请输入密码</string>
+    <string name="hint_prompt_verify_code">请输入验证码</string>
+    <string name="hint_restriction">限制为八位</string>
+    <string name="error_invalid_password">密码错误或用户名不存在</string>
+
+    <string name="action_register">注 册</string>
+    <string name="action_confirm">确认</string>
+    <string name="action_forget_password">忘记密码？</string>
+    <string name="action_sign_in">登 录</string>
+    <string name="action_get_verify_code">获取验证码</string>
+    <string name="action_jump">跳过</string>
+    <string name="msg_not_network">聊天服务器连接失败</string>
+    <string name="msg_joinfail">加入圆桌失败</string>
+    <string name="msg_tableisfull">该圆桌已满</string>
+    <string name="msg_tableisJoined">已加入该圆桌</string>
+    <string name="msg_tablecreated">圆桌创建成功</string>
+
+    <array name="array_school">
+        <item>武汉大学</item>
+        <item>华中科技大学</item>
+        <item>华中师范大学</item>
+        <item>武汉理工大学</item>
+    </array>
+
+    <!--以下为瀑布流相关-->
+    <string name="last">剩余席位</string>
+    <string name="join">加入</string>
+    <string name="location">位置</string>
+    <string name="search">查找</string>
+    <!--瀑布流 setTag-->
+    <item name="tag_rtableid" type="id">tid</item>
+    <item name="tag_rtablename" type="id">tname</item>
+    <item name="tag_rtablephoto" type="id">tphoto</item>
+
+</resources>

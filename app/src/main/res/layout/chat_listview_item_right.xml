@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+    <com.example.lzw.team20.waterfallSupport.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/avatar_chat_right"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginRight="14dp"
+        android:src="@drawable/avatar_default" />
+    <TextView
+        android:id="@+id/right_nick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/avatar_chat_right"
+        android:text="111"
+        android:textSize="10sp" />
+    <RelativeLayout
+        android:id="@+id/rl_chat_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_toLeftOf="@+id/avatar_chat_right"
+        android:layout_below="@id/right_nick"
+        android:background="@drawable/chat_right" >
+    <TextView
+        android:id="@+id/message_chat_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="160dip" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/sendtime_chat_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_below="@id/rl_chat_right"
+        android:layout_toLeftOf="@+id/avatar_chat_right"
+        android:textSize="10sp"/>
+</RelativeLayout>

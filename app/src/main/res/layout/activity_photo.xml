@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_background">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#ffffff"/>
+
+
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp">
+
+            <RadioButton
+                android:id="@+id/c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/avatar_default"
+                style="@style/tab_menu_item" />
+            <RadioButton
+                android:id="@+id/c2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/h001"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                style="@style/tab_menu_item" />
+            <RadioButton
+                android:id="@+id/c3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/h002"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                style="@style/tab_menu_item"/>
+            <RadioButton
+                android:id="@+id/c4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/h003"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                style="@style/tab_menu_item"/>
+            <RadioButton
+                android:id="@+id/c5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/h004"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                style="@style/tab_menu_item" />
+            <RadioButton
+                android:id="@+id/c6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/h005"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                style="@style/tab_menu_item"/>
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:background="@drawable/login_button"
+        android:text="确 认"
+        android:textColor="#6BC0DB"
+        android:textStyle="bold"  />
+
+
+</LinearLayout>

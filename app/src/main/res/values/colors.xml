@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#EEEEEE</color>
+
+    <color name="bg_black">#000000</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_topbar">#FCFCFC</color>
+    <color name="bg_gray">#00F1F1F1</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="text_gray">#8D7A71</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_yellow">#FFC800</color>
+    <color name="text_topbar">#694E42</color>
+    <color name="div_white">#E5E5E5</color>
+
+    <!--瀑布流相关-->
+    <color name="colorLast">#65cae0</color>
+    <color name="color_button1">#65CAE0</color>
+    <color name="color_background">#F4F4F4</color>
+    <color name="color_toolbarText">#FFFFFF</color>
+    <color name="color_activitybg">#FFFFFF</color>
+
+    <!--聊天界面-->
+    <color name="color_fbutton">#5677fc</color>
+    <color name="color_fbutton1">#CCCCCC</color>
+</resources>

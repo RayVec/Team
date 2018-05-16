@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    android:id="@+id/fragment_news">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/color_background"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerInParent="true"
+            android:ellipsize="middle"
+            android:gravity="center_horizontal"
+            android:text="全部消息  "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_recent"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="44dp"
+        android:paddingTop="10dip"
+        android:paddingBottom="0dip"
+        android:cacheColorHint="#000000"
+        android:background="@color/text_white"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:clipToPadding="false"
+        android:layout_height="wrap_content"
+        android:divider="#E5E5E5"
+        android:dividerHeight="1px" />
+
+</RelativeLayout>
